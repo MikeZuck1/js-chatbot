@@ -1,0 +1,19 @@
+h1, h2 {
+  font-family: Lato;
+}
+
+#chatbox {
+  width: 400px;
+  height: 300px;
+  border: 3px solid #000;  
+  overflow: auto; 
+  padding: 10px;  
+} 
+
+.tab {
+  border: none;
+  border-radius: 10px; 
+  margin: 3px; 
+  padding: 10px;
+} 
+
