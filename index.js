@@ -15,18 +15,15 @@ const chatbox = document.getElementById('chatbox');
           displayMessage(message);  
           displayDestinationCities(); 
         } else if (tabText === 'Hôtels') {  
-          // Code to retrieve hotel-related message using Duffel API
-          // Replace the following line with the appropriate API call
+          
           message = "Quel est votre hôtel ?";  
           displayMessage(message); 
         } else if (tabText === 'Villas') { 
-          // Code to retrieve villa-related message using Duffel API
-          // Replace the following line with the appropriate API call
+        
           message = "Quel villa choisissez-vous ?";
           displayMessage(message);
         } else if (tabText === 'Appartement') {
-          // Code to retrieve apartment-related message using Duffel API
-          // Replace the following line with the appropriate API call
+          
           message = "Quel type appartement choisissez-vous ?";
           displayMessage(message);  
         }
